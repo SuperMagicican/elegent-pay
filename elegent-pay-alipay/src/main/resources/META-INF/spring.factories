@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cn.elegent.pay.alipay.AlipayConfig,\
+  cn.elegent.pay.alipay.AlipayElegentTrade,\
+  cn.elegent.pay.alipay.AlipayElegentValid

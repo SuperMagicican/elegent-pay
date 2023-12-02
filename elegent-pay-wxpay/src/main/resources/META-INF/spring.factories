@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cn.elegent.pay.wxpay.WxpayConfig,\
+  cn.elegent.pay.wxpay.WxPayElegentTrade,\
+  cn.elegent.pay.wxpay.WxPayElegentValid

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.elegent.pay</groupId>
+    <artifactId>elegent-pay</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+
+
+<!--
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version2.0</name>
+            <url>https://www.apache.org/licenses/</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <name>elegent-pay</name>
+    <url>https://gitee.com/chuanzhiliubei/elegent-pay</url>
+    <description>elegent支付框架</description>
+
+    <scm>
+        <url>http://itcast.cn</url>
+        <connection>scm:git:https://gitee.com/chuanzhiliubei/elegent-pay.git</connection>
+        <developerConnection>scm:git:https://gitee.com/chuanzhiliubei/elegent-pay.git</developerConnection>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>黑马刘皇叔</name>
+            <email>louyingxin@itcast.cn</email>
+            <organization>传智教育研究院</organization>
+            <organizationUrl>https://www.itcast.cn/</organizationUrl>
+        </developer>
+    </developers>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+
+-->
+
+    <modules>
+        <module>elegent-pay-core</module>
+        <module>elegent-pay-demo</module>
+        <module>elegent-pay-alipay</module>
+        <module>elegent-pay-wxpay</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <!--支付宝-->
+        <alipay.version>4.34.8.ALL</alipay.version>
+        <!--微信支付-->
+        <wechatpay.version>0.4.7</wechatpay.version>
+
+        <!--
+        <gpg.passphrase>Louyingxin_123</gpg.passphrase>
+        <gpg.keyname>6E274A2A94AA1BCFBE31FD1DDA21CF9E5996B3AA</gpg.keyname>
+        <gpg.homedir>D:/GnuPG/</gpg.homedir>
+-->
+    </properties>
+
+
+
+<!--
+    <build>
+        <plugins>
+
+            <plugin>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>2.2.1</version>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+
+            <plugin>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.10.4</version>
+                <configuration>
+                    <charset>UTF-8</charset>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.6</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.4.2</version>
+            </plugin>
+        </plugins>
+    </build>
+-->
+</project>

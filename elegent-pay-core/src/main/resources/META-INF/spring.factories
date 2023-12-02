@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cn.elegent.pay.config.CallbackConfig,\
+  cn.elegent.pay.core.CallbackWatch,\
+  cn.elegent.pay.core.ElegentPayImpl,\
+  cn.elegent.pay.core.ElegentLoader,\
+  cn.elegent.pay.core.ElegentConfig,\
+  cn.elegent.pay.key.impl.DefaultKeyManager,\
+  cn.elegent.pay.core.CallbackController

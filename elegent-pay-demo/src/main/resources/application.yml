@@ -1,0 +1,14 @@
+elegent:
+  pay:
+    wxpay:
+      mchId: 1561414331
+      appId: wxb709cf6e6a7d9d2a
+      appSecret: d9a9ff00a633cd7353a8925119063b01
+      mchSerialNo: 25FBDE3EFD31B03A4377EB9A4A47C517969E6620
+      apiV3Key: CZBK51236435wxpay435434323FFDuv3
+    alipay:
+      appId: 2021003141676135
+    callback:
+      domain:  http://2b372255.r9.cpolar.top
+      watch: false
+      cycle: 10

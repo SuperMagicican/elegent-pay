@@ -6,6 +6,7 @@ target/
 log.path_IS_UNDEFINED
 .DS_Store
 offline_user.md
+README.md
 
 ### STS ###
 .apt_generated
